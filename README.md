@@ -1,9 +1,7 @@
 gif-movie-view
 ==============
 
-Android View widget for displaying GIF animations.
-
-To show animated GIF in your application just add GifMovieView into your layout.
+Para uso en xml layout.
 
             <com.basv.gifmoviewview.widget.GifMovieView
                 android:layout_width="wrap_content"
@@ -11,5 +9,8 @@ To show animated GIF in your application just add GifMovieView into your layout.
                 android:onClick="onGifClick"
                 custom:gif="@drawable/my_animated_gif"/>
 
-
-You can set Movie object dynamically or as a resource ID and control animation playback.
+En codigo java
+            
+            GifMovieView gif1 = new GifMovieView(context);
+	gif1.setMovieResource(resource);
+	setContentView(gif1);
