@@ -1,5 +1,7 @@
 gif-movie-view
 ==============
+Repositorio casi exactamente a este https://github.com/sbakhtiarov/gif-movie-view
+
 
 Para uso en xml layout.
 
