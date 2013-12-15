@@ -13,6 +13,6 @@ Para uso en xml layout.
 
 En codigo java
             
-            GifMovieView gif1 = new GifMovieView(context);
-	    gif1.setMovieResource(resource);
-	    setContentView(gif1);
+	GifMovieView gif1 = new GifMovieView(context);
+	gif1.setMovieResource(resource);
+	setContentView(gif1);
