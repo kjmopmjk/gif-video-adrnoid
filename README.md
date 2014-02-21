@@ -5,11 +5,11 @@ Repositorio casi exactamente a este https://github.com/sbakhtiarov/gif-movie-vie
 
 Para uso en xml layout.
 
-            <com.basv.gifmoviewview.widget.GifMovieView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:onClick="onGifClick"
-                custom:gif="@drawable/my_animated_gif"/>
+    <com.basv.gifmoviewview.widget.GifMovieView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onGifClick"
+        custom:gif="@drawable/my_animated_gif"/>
 
 En codigo java
             
